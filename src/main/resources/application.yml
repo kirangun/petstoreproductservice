@@ -13,7 +13,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
   datasource:
-    url: ${POSTGRES_DB_URL:}
+    url: ${POSTGRES_DB_URL:jdbc:}
     username: ${POSTGRES_DB_USERNAME:}
     password: ${POSTGRES_DB_PASSWORD:}
   jpa:
